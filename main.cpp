@@ -30,7 +30,7 @@ void play(void);
 void shape2_design(int x,int y)
 {
 line(x-7,y-7,x,y+10);
-line(x,y+10,x+7,y-7);
+line(x,y+10,x+7,y-7); 
 line(x+7,y-7,x-7,y-7);
 line(x-7,y+7,x+7,y+7);
 line(x+7,y+7,x,y-10);
