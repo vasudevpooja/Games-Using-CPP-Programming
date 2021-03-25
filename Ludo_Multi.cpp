@@ -4,38 +4,38 @@
 using namespace std;
 struct pawns
 {
-int position;
-int  update;
-int sum;
+ int position;
+ int  update;
+ int sum;
 };
 struct player
 {
-struct pawns g[4];
-int def;
-int colour;
-int win;
-};
-int colour_grid[4]={4,2,14,1};
-int arr[2][52]={0};
-int shape1_diamond(int);
-int  home(int,int,int);
-int red_house[2][6];
-int green_house[2][6];
-int blue_house[2][6];
-int yellow_house[2][6];
-void house_assigned(void);
-void design(void);
-int chance(int,int,int );
-void play(void);
-void shape2_design(int x,int y)
-{
-line(x-7,y-7,x,y+10);
-line(x,y+10,x+7,y-7); 
-line(x+7,y-7,x-7,y-7);
-line(x-7,y+7,x+7,y+7);
-line(x+7,y+7,x,y-10);
-line(x,y-10,x-7,y+7);
-}
+ struct pawns g[4];
+ int def;
+ int colour;
+ int win;
+ };
+ int colour_grid[4]={4,2,14,1};
+ int arr[2][52]={0};
+ int shape1_diamond(int);
+ int  home(int,int,int);
+ int red_house[2][6];
+ int green_house[2][6];
+ int blue_house[2][6];
+ int yellow_house[2][6];
+ void house_assigned(void);
+ void design(void);
+ int chance(int,int,int );
+ void play(void);
+ void shape2_design(int x,int y)
+ {
+   line(x-7,y-7,x,y+10);
+   line(x,y+10,x+7,y-7); 
+   line(x+7,y-7,x-7,y-7);
+   line(x-7,y+7,x+7,y+7);
+   line(x+7,y+7,x,y-10);
+   line(x,y-10,x-7,y+7);
+ }
 void flood_fill(int x,int y,int colour1,int colour2)
 {
 int c;
