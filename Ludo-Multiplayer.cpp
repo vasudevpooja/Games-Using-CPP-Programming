@@ -20,7 +20,7 @@
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Compiler>
+				<Compiler> 
 					<Add option="-O2" />
 				</Compiler>
 				<Linker>
