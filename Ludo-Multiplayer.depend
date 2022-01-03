@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1615819096 source:c:\users\user\desktop\ludo-multiplayer\main.cpp
-	<graphics.h>
-	<iostream>
-	<cstdio>
-
