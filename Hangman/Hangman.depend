@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1639212518 source:c:\users\user\desktop\hangman\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<locale>
+	<vector>
+	<ctime>
+	<algorithm>
+	<sstream>
+
